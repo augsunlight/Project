@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_dairy_cream"
+    android:orientation="vertical"
+    tools:context=".AddActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/color_corvette"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Them chi tieu"
+            android:textColor="@color/black"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="5dp"
+        android:background="@color/color_corvette"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/textTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter title" />
+
+        <Spinner
+            android:id="@+id/spinnerCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/textPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter price" />
+
+        <EditText
+            android:id="@+id/textDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter date" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/buttonUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/size_24dp"
+            android:layout_marginRight="@dimen/size_24dp"
+            android:layout_weight="1"
+            android:background="@drawable/background_sign_in"
+            android:text="UPDATE" />
+
+        <Button
+            android:id="@+id/buttonCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/size_24dp"
+            android:layout_marginRight="@dimen/size_24dp"
+            android:layout_weight="1"
+            android:background="@drawable/background_sign_in"
+            android:text="CANCEL" />
+    </LinearLayout>
+</LinearLayout>

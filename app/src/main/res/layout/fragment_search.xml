@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/color_dairy_cream"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginStart="@dimen/size_16dp"
+        android:layout_marginEnd="@dimen/size_16dp"
+        app:cardCornerRadius="@dimen/size_8dp"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/size_8dp"
+        android:background="@color/color_corvette"
+        android:layout_height="wrap_content">
+
+        <SearchView
+            android:id="@+id/search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:iconifiedByDefault="false"
+            android:inputType="textMultiLine"
+            android:queryHint="Nhap phong" />
+    </androidx.cardview.widget.CardView>
+
+    <EditText
+        android:id="@+id/eFrom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/size_16dp"
+        android:layout_marginTop="@dimen/size_20dp"
+        android:layout_marginEnd="@dimen/size_16dp"
+        android:hint="Chon tu ngay"
+        android:textSize="@dimen/size_14sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/eTo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/size_16dp"
+        android:layout_marginEnd="@dimen/size_16dp"
+        android:hint="Chon den ngay"
+        android:textSize="@dimen/size_14sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Spinner
+            android:id="@+id/spinnerCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/background_sign_in"
+            android:text="Search" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textTong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="Tong tien"
+        android:textStyle="bold"
+        android:textColor="@color/color_tradewind"
+        android:textSize="@dimen/size_24sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/size_12dp"
+        android:layout_marginTop="@dimen/size_20dp"
+        android:layout_marginEnd="@dimen/size_12dp" />
+</LinearLayout>

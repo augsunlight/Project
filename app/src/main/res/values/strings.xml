@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">QuanLyHomeStay</string>
+    <string-array name="category">
+        <item>Khu A</item>
+        <item>Khu B</item>
+        <item>Khu C</item>
+    </string-array>
+    <string name="text_title_1">HOM NAY</string>
+    <string name="text_title_2">LICH SU</string>
+    <string name="text_title_3">TIM KIEM</string>
+    <string name="text_title_4">PROFILE</string>
+    <string name="text_title_home">QUẢN LÝ HOMESTAY</string>
+    <string name="text_title_history">PHÒNG ĐANG SỬ DỤNG</string>
+    <string name="text_hint_from">Chon tu ngay</string>
+    <string name="text_hint_to">Chon den ngay</string>
+    <string name="text_hint_search">201</string>
+    <string name="text_button_search">Search</string>
+    <string name="text_tong">Tổng tiền</string>
+    <string name="text_title_item">Phong 101</string>
+    <string name="text_category">Loai A</string>
+    <string name="text_price">500k</string>
+    <string name="text_date">20/05/2022</string>
+    <string name="text_title_profile">Profile</string>
+    <string name="text_name_user">Employee</string>
+    <string name="text_email">abc@gmail.com</string>
+    <string name="text_logout">LogOut</string>
+    <string name="text_sign_in">Sign In</string>
+    <string name="text_password">Password</string>
+    <string name="text_hint_email">Email</string>
+    <string name="text_forgot_password">Forgot Password</string>
+    <string name="text_sign_up">Sign Up</string>
+    <string name="text_description">Create your account</string>
+    <string name="text_name">Name</string>
+</resources>
